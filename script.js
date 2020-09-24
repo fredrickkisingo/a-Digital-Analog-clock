@@ -23,5 +23,5 @@ function runTheClock() {
     SECONDHAND.style.transform = "rotate(" + secPosition + "deg)";
 }
 
-//here we are setting the interval to 1000milliseconds
+//here we are setting the interval to 1000 milliseconds
 var interval = setInterval(runTheClock, 1000);
